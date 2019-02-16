@@ -58,6 +58,7 @@ if(s.resultado < 16){
   render() {
     return (
       <View style={styles.container}>
+      <Text style={styles.title}> Calculadora de IMC :) </Text>
       <View style={styles.entradas}>
         <TextInput placeholder="Massa" keyboardType="numeric" style={styles.input} onChangeText={(massa)=>{this.setState({massa})}}/>
         <TextInput placeholder="Altura" keyboardType="numeric" style={styles.input} onChangeText={(altura)=>{this.setState({altura})}}/>
@@ -77,6 +78,13 @@ const styles = StyleSheet.create({
   },
   entradas:{
     flexDirection:'row'
+  },
+  title:{
+    height:80,
+    textAlign:"center",
+    fontSize:30,
+    marginTop:90,
+    color:"blue"
   },
   input:{
     height:80,
