@@ -9,7 +9,7 @@ Calculadora de IMC que segue os parâmetros abaixo:
 25 a < 30 -> Sobrepeso
 30 a < 35 -> Obesidade Grau I
 35 a < 40 -> Obesidade Grau II
-> 40 -> Obesidade Grau III
+Maior que 40 -> Obesidade Grau III
 
 # Print da Tela
 
