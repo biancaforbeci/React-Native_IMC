@@ -3,12 +3,19 @@
 Calculadora de IMC que segue os parâmetros abaixo:
 
 < 16 -> Magreza grave
+<br>
 16 a < 17 -> Magreza moderada
+<br>
 17 a < 18,5 -> Magreza Leve
+<br>
 18,5 a < 25 -> Saudável
+<br>
 25 a < 30 -> Sobrepeso
+<br>
 30 a < 35 -> Obesidade Grau I
+<br>
 35 a < 40 -> Obesidade Grau II
+<br>
 Maior que 40 -> Obesidade Grau III
 
 # Print da Tela
